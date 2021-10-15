@@ -9,10 +9,10 @@ const video = document.querySelector(".video-container")
 btn.addEventListener("click", function() {
         if (btn.classList.contains("slide")) {
             btn.classList.remove("slide")
-            video.play()
+            video.pause()
         } else {
             btn.classList.add("slide")
-            video.pause()
+            video.play()
         }
     })
     //preloader
